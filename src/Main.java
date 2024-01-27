@@ -29,33 +29,52 @@ public class Main {
         System.out.println("Задача 2");
         int [] setOfNumbers = {1, 2, 77, 88};
         for(int i = 0; i < setOfNumbers.length; i++){
-            System.out.print(setOfNumbers[i] + ",");
+            System.out.print(setOfNumbers[i]);
+            if(i != setOfNumbers.length -1){
+                System.out.print(", ");
+            }
         }
         System.out.println();
         int [] setOfNumbers1 = {0, 7, 990, 8808};
         for(int i = 0; i < setOfNumbers1.length; i++){
-            System.out.print(setOfNumbers1[i] + ",");
+            System.out.print(setOfNumbers1[i]);
+            if(i != setOfNumbers1.length -1){
+                System.out.print(", ");
+            }
         }
         System.out.println();
         int [] setOfNumbers3 = {58, -2, 707};
         for(int i = 0; i < setOfNumbers3.length; i++){
-            System.out.print(setOfNumbers3[i] + ",");
+            System.out.print(setOfNumbers3[i]);
+            if(i != setOfNumbers3.length -1){
+                System.out.print(", ");
+            }
         }
+        System.out.println();
         //Задача 3
         System.out.println("Задача 3");
         int [] setOfNumbers4 = {1, 2, 77, 88};
         for(int i = setOfNumbers4.length - 1; i >=0; i--){
-            System.out.print(setOfNumbers4[i] + ",");
+            System.out.print(setOfNumbers4[i]);
+            if(i != 0){
+                System.out.print(", ");
+            }
         }
         System.out.println();
         int [] setOfNumbers5 = {0, 7, 990, 8808};
         for(int i = setOfNumbers5.length - 1; i >=0; i--){
-            System.out.print(setOfNumbers5[i] + ",");
+            System.out.print(setOfNumbers5[i]);
+            if(i != 0){
+                System.out.print(", ");
+            }
         }
         System.out.println();
         int [] setOfNumbers6 = {58, -2, 707};
         for(int i = setOfNumbers6.length - 1; i >=0; i--){
-            System.out.print(setOfNumbers6[i] + ",");
+            System.out.print(setOfNumbers6[i]);
+            if(i != 0){
+                System.out.print(", ");
+            }
         }
         System.out.println();
         //Задача 4
@@ -64,7 +83,10 @@ public class Main {
             if(weight[i] %2 != 0){
                 weight[i] = weight[i] + 1;
             }
-            System.out.print(weight[i] + ",");
+            System.out.print(weight[i]);
+            if(i != weight.length -1){
+                System.out.print(", ");
+            }
         }
     }
 }
